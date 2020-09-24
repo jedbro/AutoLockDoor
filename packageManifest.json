@@ -9,7 +9,7 @@
       "id": "673fa73a-8064-4cb7-a0a9-8070cd0fc436",
       "name": "Auto Lock Door",
       "namespace": "chris.sader",
-      "location": "https://raw.githubusercontent.com/csader/hubitat-packagerepositories/master/AutoLockDoor.groovy",
+      "location": "https://raw.githubusercontent.com/csader/AutoLockDoor/master/AutoLockDoor.groovy",
       "required": true,
       "oauth": false,
       "primary": false
