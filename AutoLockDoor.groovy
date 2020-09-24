@@ -48,7 +48,7 @@ definition(
     iconUrl: "http://www.gharexpert.com/mid/4142010105208.jpg",
     iconX2Url: "http://www.gharexpert.com/mid/4142010105208.jpg",
     iconX3Url: "http://www.gharexpert.com/mid/4142010105208.jpg",
-    importUrl: "https://github.com/bptworld/Hubitat/blob/master/Apps/Follow%20Me/AutoLockDoor.groovy"
+    importUrl: "https://github.com/csader/AutoLockDoor/blob/master/AutoLockDoor.groovy"
 )
 
 preferences
