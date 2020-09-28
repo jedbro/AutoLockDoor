@@ -31,12 +31,13 @@
  *  Changes:
  *
  *  1.0.0 Initial Release
+ *  1.0.1 Improved logging and logging errors
  *
  */
 
 def setVersion(){
     state.name = "Auto Lock Door"
-	state.version = "1.0.0"
+	state.version = "1.0.1"
 }
 
 definition(
@@ -114,7 +115,7 @@ def doorClosed(evt) {
 
 def doorHandler(evt)
 {
-    log.debug "Door ${openSensor.latestValue}"
+    log.debug "Door state is ${openSensor.latestValue("contact")}"
     log.debug "Lock ${evt.name} is ${evt.value}."
 
     if (evt.value == "locked") {                  // If the human locks the door then...
